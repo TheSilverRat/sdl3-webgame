@@ -1,0 +1,1 @@
+ emcc .\src\*.cpp -I .\deps\include -L.\deps\lib\SDL3 -lSDL3 -sUSE_SDL=0 -o main.html
